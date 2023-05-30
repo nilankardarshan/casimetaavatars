@@ -125,6 +125,7 @@ button {
   border-radius: 10px;
 }
 
+
 h5 {
   margin: 10px;
   color: white;
@@ -137,9 +138,15 @@ h5 {
   bottom: 10px; /* Adjust the bottom position as needed */
   margin: 0;
 }
+.card h5 {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.421);
+  
+}
 .card:hover h5 {
   display: block; /* Show the h5 text on hover */
 }
+
 .card:hover h5:before {
   content: '';
   position: absolute;
